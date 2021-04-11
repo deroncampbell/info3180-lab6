@@ -44,7 +44,7 @@ const Home = {
       fetch('https://newsapi.org/v2/top-headlines?country=us', 
       {    
         headers: {
-          'Authorization': 'Bearer 66ea95e70ad2436583776ac3e36e739a'
+          'Authorization': 'Bearer <your api token>'
         }
       })          
       .then(function(response) {
@@ -69,7 +69,7 @@ const Home = {
         fetch('https://newsapi.org/v2/everything?q='+ 
         self.searchTerm + '&language=en', {
           headers: {
-            'Authorization': 'Bearer 66ea95e70ad2436583776ac3e36e739a'
+            'Authorization': 'Bearer <your api token>'
           }
         })
 
